@@ -1,0 +1,15 @@
+
+<h1>Images</h1>
+<ul class="images-list">
+  {{#each this}}
+    <li>{{image}} {{content}}</li>
+  {{/each}}
+</ul>
+
+<form class="create-image-form">
+
+Paste Url of Image <input type="url" class="create-image-content" name="image"><br>
+<textarea class="create-image-content" rows="4" cols="50">
+</textarea>
+  <input type="submit">
+</form>
